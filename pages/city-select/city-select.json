@@ -1,0 +1,5 @@
+{
+	"usingComponents": {
+		"city-list":"../../component/wx-index-list/wx-index-list"
+	}
+}

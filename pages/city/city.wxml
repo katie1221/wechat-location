@@ -1,0 +1,19 @@
+<!--pages/city/city.wxml-->
+<view class="main">
+    <view class="row" bindtap = "clickMap">
+        <view class="hintText">地图选点</view>
+        <image class="rightArrow" src="{{rightArrow}}" ></image>
+    </view>
+    <view class="line"></view>
+    <view class="row" bindtap = "routePlan">
+        <view class="hintText">路线规划</view>
+        <image class="rightArrow" src="{{rightArrow}}" ></image>
+    </view>
+</view>
+<view class="main" wx:if="{{address}}" >
+    <view class="addressRow" bindtap = "clickMap">
+        <view class="addressHint">地图选点位置：</view>
+        <view class="hintText">{{address}}</view>
+    </view>
+</view>
+	

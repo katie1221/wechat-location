@@ -1,0 +1,10 @@
+/* pages/weather/weather.wxss */
+
+.main{  
+    height: 100%;
+    width:100%;
+}
+/*城市信息*/
+.city {padding: 3%; width:100%;overflow: hidden;}
+.city .dwicon{ width: 30rpx; height: 30rpx; float: left; margin: 5px;}
+.city text{font-size: 16px; color: #666; float: left;}
